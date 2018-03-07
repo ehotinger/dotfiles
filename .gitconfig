@@ -41,3 +41,7 @@
 
 [help]
 	autocorrect = 1
+
+[user]
+	email = erhoting@microsoft.com
+	name = Eric Hotinger

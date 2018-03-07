@@ -1,6 +1,7 @@
 .PHONY: all
 all: dotfiles
 
+# Makes symlinks between files in this repository and the ones originally on disk
 .PHONY: dotfiles
 dotfiles: ## Installs dotfiles
 	for file in $(shell find $(CURDIR) -name ".*"); do \
