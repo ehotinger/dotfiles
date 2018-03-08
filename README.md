@@ -14,3 +14,7 @@ GIT_AUTHOR_EMAIL="<email>"
 GIT_COMMITTER_EMAIL="$GIT_COMMITTER_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
+
+To update the `.gitconfig` and add/remove changes:
+- `git update-index --assume-unchanged .gitconfig`
+- `git update-index --no-assume-unchanged .gitconfig`
