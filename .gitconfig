@@ -50,6 +50,3 @@
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 	trustctime = false
 	editor=vim
-[user]
-	name = Eric Hotinger
-	email = erhoting@microsoft.com
