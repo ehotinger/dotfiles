@@ -2,7 +2,7 @@
 
 # Load shell dotfiles
 
-for file in ~/.{aliases,dockerfunc}; do
+for file in ~/.{aliases,dockerfunc,extra}; do
     if [[ -r "$file" ]] && [[ -f "$file" ]]; then
         source "$file"
     fi
