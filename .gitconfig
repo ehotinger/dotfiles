@@ -41,6 +41,15 @@
 
 [help]
 	autocorrect = 1
+
+[core]
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
+	
+	# Treat spaces before tabs and all kinds of trailing whitespace as an error
+	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
+	trustctime = false
+	editor=vim
 [user]
 	name = Eric Hotinger
 	email = erhoting@microsoft.com
