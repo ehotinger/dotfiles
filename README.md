@@ -2,7 +2,7 @@
 
 ## Customization
 
-Save environment variables and in a `.extra` file, i.e.:
+Save environment variables in a `.extra` file, i.e.:
 
 ```
 ### Git Credentials
