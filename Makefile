@@ -4,7 +4,7 @@ all: dotfiles
 # Makes symlinks between files in this repository and the ones originally on disk
 .PHONY: dotfiles
 dotfiles: ## Installs dotfiles
-	for file in $(shell find $(CURDIR) -name ".*" -not -name ".gitignore" -not -name ".gitconfig"); do \
+	for file in $(shell find $(CURDIR) -name ".*" -not -name ".git" -not -name ".gitignore" -not -name ".gitconfig"); do \
 		f=$$(basename $$file); \
 		ln -sfn $$file $(HOME)/$$f; \
 	done; \
