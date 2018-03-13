@@ -110,7 +110,3 @@ fi
 if [[ -f "${HOME}/.bash_profile" ]]; then
     source "${HOME}/.bash_profile"
 fi
-
-# TODO: remove these
-export GOPATH=$HOME/projects:$HOME/vso/src/Build
-export PATH=$PATH:$GOROOT/bin:$HOME/projects/bin:$HOME/vso/src/Build/bin
