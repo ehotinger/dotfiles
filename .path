@@ -2,3 +2,7 @@
 
 export GOPATH=${HOME}/projects:${HOME}/vso/src/Build
 export PATH=${PATH}:$GOROOT/bin:${HOME}/projects/bin:${HOME}/vso/src/Build/bin
+
+# cd helpers
+export GH=${HOME}/projects/src/github.com
+export VSO=${HOME}/vso/src
