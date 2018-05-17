@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Load shell dotfiles
-for file in ~/.{aliases,dockerfunc,extra,path}; do
+for file in ~/.{bash_prompt,aliases,dockerfunc,extra,path}; do
     if [[ -r "$file" ]] && [[ -f "$file" ]]; then
         source "$file"
     fi
