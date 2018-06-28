@@ -1,10 +1,10 @@
 #!/bin/sh
 
-export GOPATH=${HOME}/projects:${HOME}/vso/src/Build
-export PATH=${PATH}:$GOROOT/bin:${HOME}/projects/bin:${HOME}/vso/src/Build/bin
+export GOPATH=${HOME}/go:${HOME}/vso/src/Build
+export PATH=${PATH}:${HOME}/go/bin:${HOME}/vso/src/Build/bin
 
 # cd helpers
-export GH=${HOME}/projects/src/github.com
+export GH=${HOME}/go/src/github.com
 export VSO=${HOME}/vso/src
 
 # Azure CLI Extensions
