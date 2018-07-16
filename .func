@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# figure out who listens to the port.
+# Ex: wholistens 80
+wholistens(){
+  lsof -i ":$1" | grep LISTEN
+}

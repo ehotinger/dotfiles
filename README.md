@@ -4,7 +4,7 @@
 
 Save environment variables in a `.extra` file, i.e.:
 
-```
+```sh
 ### Git Credentials
 
 GIT_AUTHOR_NAME="<name>"
