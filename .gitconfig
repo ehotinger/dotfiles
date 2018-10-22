@@ -17,6 +17,9 @@
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; git remote -v update -p"
 
 	br = branch
+	c = commit
+	co = checkout
+	a = add
 
 [apply]
 	# Detects whitespace errors
