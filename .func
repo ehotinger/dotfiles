@@ -5,3 +5,17 @@
 wholistens(){
   lsof -i ":$1" | grep LISTEN
 }
+
+# Azure CLI
+azinit() {
+  cd $GH/Azure/azure-cli
+  . env/bin/activate
+}
+
+azacr() {
+  cd $GH/Azure/azure-cli/src/command_modules/azure-cli-acr/azure/cli/command_modules/acr
+}
+
+aztest() {
+  python -m unittest discover -s tests
+}
