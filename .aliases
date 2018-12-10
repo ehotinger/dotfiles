@@ -2,6 +2,7 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
+alias .....="cd ../../../.."
 
 alias timer='echo "Timer started. Stop with CTRL-D" && date && time cat && date'
 alias untar='tar xvf'
