@@ -6,7 +6,7 @@ export PATH=/usr/local/bin:${PATH}:/sbin
 export PATH="/usr/local/go/bin:${HOME}/vso/src/Build/bin:${HOME}/.go/bin:${PATH}"
 
 # cd helpers
-export GH=${HOME}/go/src/github.com
+export GH=${HOME}/.go/src/github.com
 export VSO=${HOME}/vso/src
 
 # Azure CLI Extensions
