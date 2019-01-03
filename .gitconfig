@@ -4,6 +4,9 @@
 	# Pull in remote changes and all submodules
 	p = !"git pull; git submodule foreach git pull origin master"
 
+	# Fetch upstream and merge with upstream/master
+	fu = !"git fetch upstream; git merge upstream/master"
+
 	# Working tree's short status
 	ss = status -s
 
