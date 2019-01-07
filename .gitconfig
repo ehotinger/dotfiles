@@ -19,6 +19,7 @@
 	# Delete merged branches
 	dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d; git remote -v update -p"
 
+	pu = push
 	br = branch
 	c = commit
 	co = checkout
