@@ -16,6 +16,9 @@
 	# Checks out the specified branch or creates it if it doesn't exist
 	go = "!f() { git checkout -b \"$1\" 2> /dev/null || git checkout \"$1\"; }; f"
 
+	# Delete local branches that aren't master
+	dl = "!git branch | grep -v master | xargs git branch -D"
+
 	# Delete merged branches
 	po = remote prune origin
 
