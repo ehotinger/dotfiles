@@ -19,3 +19,10 @@ azacr() {
 aztest() {
   python -m unittest discover -s tests
 }
+
+# This will cause the kernel to drop clean caches, as well as
+# reclaimable slab objects like dentries and inodes. Once dropped, their
+# memory becomes free.
+drop_caches() {
+  echo 3 | sudo tee /proc/sys/vm/drop_caches
+}
