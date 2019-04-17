@@ -29,3 +29,6 @@ alias ips="sudo ifconfig -a | grep -o 'inet6\\? \\(addr:\\)\\?\\s\\?\\(\\(\\([0-
 
 # Lock the screen when going afk
 alias afk="i3lock -c 000000"
+
+# Override the default python to a specific version
+alias python=python3.7
