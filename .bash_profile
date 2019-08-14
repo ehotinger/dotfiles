@@ -17,7 +17,3 @@ shopt -s histappend
 
 # Case-insensitive globbing, used in pathname expansion
 shopt -s nocaseglob
-
-# mac
-# Add VSCode
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
