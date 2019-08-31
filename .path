@@ -1,9 +1,9 @@
 #!/bin/sh
 
-export GOPATH="${HOME}/.go"
+export GOPATH="${HOME}/work/.go"
 
 export PATH="${PATH}:/usr/local/bin:/sbin"
-export PATH="${PATH}:/usr/local/go/bin:${HOME}/.go/bin"
+export PATH="${PATH}:/usr/local/go/bin:${HOME}/work/.go/bin"
 
 export PATH="${PATH}:${HOME}/bin:${HOME}/.toolbox/bin"
 
@@ -11,9 +11,8 @@ export PATH="${PATH}:${HOME}/bin:${HOME}/.toolbox/bin"
 # Add VSCode
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 
-
 # cd helpers
-export GH=${HOME}/.go/src/github.com
+export GH=${HOME}/work/.go/src/github.com
 
 # Azure CLI Extensions
 export AZURE_EXTENSION_DIR=${HOME}/.azure/devcliextensions
