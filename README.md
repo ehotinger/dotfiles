@@ -1,5 +1,7 @@
 # dotfiles
 
+Running `make` will symlink these dotfiles at `$HOME`. Buyer beware.
+
 ## Customization
 
 Save environment variables in a `.extra` file, i.e.:
